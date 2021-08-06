@@ -3,19 +3,18 @@
 #include "MyMusicGame.h"
 #include "FunctionLibrary.h"
 #include "FileManagerGeneric.h"
-//#include "D:/Epic Games/UE_4.15/Engine/Source/Developer/TargetPlatform/Public/Interfaces/IAudioFormat.h"
-#include "../TargetPlatform/Public/Interfaces/IAudioFormat.h"
 #include "VorbisAudioInfo.h"
 #include "Audio.h"
 #include "ActiveSound.h"
 #include "AudioDevice.h"
-#include "../ImageWrapper/Public/IImageWrapperModule.h"
-#include "../ImageWrapper/Public/IImageWrapper.h"
+#include "IImageWrapperModule.h"
+#include "IImageWrapper.h"
 #include <locale.h>
 #include <string>
 #include "StringConv.h"
+#include "Developer/TargetPlatform/Public/Interfaces/IAudioFormat.h"
 #if PLATFORM_ANDROID
-#include "../Launch/Public/Android/AndroidJNI.h"
+#include "Android/AndroidJNI.h"
 #include "Android/AndroidApplication.h"
 #endif
 //
